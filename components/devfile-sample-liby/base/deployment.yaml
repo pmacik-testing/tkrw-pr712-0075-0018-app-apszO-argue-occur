@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-liby
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0018-tenant/tkrw-pr712-0075-0018-app/devfile-sample-liby@sha256:4c25fb83b8b8dd66059ddcdf2e6a856728277adf0b5fff1a018500a3f37b502b
         name: my-nodejs
         ports:
         - containerPort: 3001
